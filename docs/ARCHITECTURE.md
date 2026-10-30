@@ -5,7 +5,7 @@
 ```mermaid
 flowchart LR
   subgraph Presentation["Presentation layer (React + Tailwind + Recharts)"]
-    UI[Role-based dashboards and forms]
+    UI[Role are hh based dashboards and forms]
   end
   subgraph API["REST / integration layer (Express)"]
     MW[JWT auth · role check · object-level access · zod validation · rate limit]
